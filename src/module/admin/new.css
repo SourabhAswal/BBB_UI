@@ -1,0 +1,51 @@
+tbody + thead{
+  
+  display: none;
+}
+
+
+
+.mytable tbody tr  {
+    border: solid #e3e6f0;
+  font-size: 20px;
+  color: light grey;
+}
+
+.dataTables_paginate{
+margin-left: 70%;
+margin-top: 10px;
+}
+.dataTables_info{
+margin-right: 50%;
+margin-top: 10px;
+}
+
+.mytable tbody  td {
+  font-size: 15px;
+  color: #757575;
+}
+
+ .mytable th{
+  font-size: 15px;
+  font-weight: bold;  
+  color:  #757575;
+  
+} 
+
+.div.col-sm-12 col-md-7{
+  margin-left: 70%;
+}
+
+.pagination li a{
+  z-index: 1; color: #fff !important; background-color: #22b1ed; border-color: #22b1ed,; 
+}
+.pagination .disabled a{
+  z-index: 1; color: #fff !important; background-color: #22b1ed !important; border-color: #22b1ed !important; 
+}
+
+
+/* #sidebarToggleTop i:hover {
+  color:yellow !important;
+} */
+
+

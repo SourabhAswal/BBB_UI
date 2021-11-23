@@ -1,0 +1,40 @@
+#date-col{
+ margin-left: 40px;
+  font-weight: 500;
+  font-family: sans-serif !important;
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  margin-top: 17px;
+  
+}
+
+#fsize{
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+#loadingMessage {
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: #ccc;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+#viewer{
+
+  overflow: hidden !important;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  
+}
+iframe{
+  overflow: hidden !important;
+}
+.modal-content{
+  width: 129% !important;
+}

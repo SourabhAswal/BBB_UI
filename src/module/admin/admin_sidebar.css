@@ -1,0 +1,42 @@
+
+
+    .my-ic{
+        color: #fecb32  ;
+    }
+    .sidebar-light .nav-item.active .nav-link {
+        color: #22b1ed !important;
+        font-weight: 300;
+    }
+    .sidebar .nav-item .nav-link span {
+        text-decoration: none !important;
+    }
+    .sidebar-light .nav-item .nav-link i :hover{
+        cursor: pointer;
+        color: gray !important;
+    }
+    .sidebar-light .nav-item.active .nav-link i {
+        cursor: pointer;
+        color: #fecb32 ;
+    }
+
+  
+      .bg-image {
+        background-image: url('images/5.jfif');
+        background-size: cover;
+       background-position: center;
+      }
+
+      
+      @media (max-width: 768px){
+      .sidebar.toggled {
+          width: 100vw!important;
+      }
+    }
+
+      .sidebar.toggled {
+        overflow: visible;
+        width: 6.5rem!important;}
+   
+        .sidebar {
+          min-height: 100vh;}
+  

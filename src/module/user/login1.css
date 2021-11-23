@@ -1,0 +1,131 @@
+/* @media(min-width : 500px){
+    .col-8{
+        -ms-flex: 0 0 66.666667%;
+flex: 0 0 66.666667%;
+max-width: 66.666667%;
+    }
+}
+
+@media(min-width : 500px){
+    .col-4{
+        -ms-flex: 0 0 33.333333%;
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
+    }
+} */
+
+.col-sm-8{
+    height: 822px;
+}
+.col-sm-4{
+    height: 822px;
+}
+.logo2{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.texts{
+    margin-top: 300px;
+}
+.form-section{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.col-sm-4 .heading{
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 60px;
+color: #0d2366;
+}
+.login-form .username{
+    font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+margin-bottom: 20px;
+}
+
+.login-form input{
+    width: 401px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f6f6f6;
+    padding: 19px 25px 18px;
+    border:  none;
+    /* border-color: #f6f6f6; */
+
+}
+
+.button{
+        padding: 17px 40px 16px 35px;
+    border-radius: 4px;
+    background-color: #22b1ed;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+    width: 127px;
+    height: 55px;
+    border: none;
+    text-align: center;
+  
+}
+.button:hover{
+    color: #22b1ed;
+    background-color:  #fff;
+    border: 4px;
+    border-color: #22b1ed;
+    text-align: center;
+}
+.button h6{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: -8px;
+}
+.butn-google{
+    border-radius: 4px;
+}
+
+
+a:hover span { text-decoration: underline; }
+
+
+.action-btn {
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: #22b1ed;
+    border: 1px solid #22b1ed;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.action-btn:hover{
+    color:#22b1ed;
+    background-color: #fff;
+
+    border-color:1px  #22b1ed;
+    text-align: center;
+
+}
+
+.action-btn:hover{
+    color:#22b1ed;
+    background-color: #fff;
+
+    border-color:1px  #22b1ed;
+    text-align: center;
+
+}
+
+.butn-google:hover{
+    color: #22b1ed;
+    text-decoration: underline;
+}
+

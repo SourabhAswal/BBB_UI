@@ -1,0 +1,110 @@
+.scroll{
+    width: 1200px;
+    height: 390px;
+    overflow: auto;
+    overflow-y: hidden;
+   
+    margin: 0 auto;
+    margin-top: 3%;
+    white-space: nowrap;
+    box-shadow: 10px 10px 10px 2px lightgray;
+    
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+ 
+
+.speaker-div{
+    box-shadow: 10px 10px 12px lightgray !important;
+    width: 310px !important;
+    margin-left: 24px;
+}
+.speaker-div:hover{
+    transition: all 0.5s;
+transform: scale(1.1);
+   
+}
+/* #div-1{
+    visibility: hidden;
+}
+
+#div-2{
+    visibility: hidden;
+}
+
+#div-3{
+    visibility: hidden;
+}
+
+#div-4{
+    visibility: hidden;
+} */
+
+
+#pageDropDown{
+    color:#22b1ed;
+    background-color: aliceblue;
+    border:1px solid #22b1ed;
+}
+
+.table>:not(:last-child)>:last-child>*{
+    border-bottom-color:rgb(186, 193, 199) !important
+}
+.table>thead{
+    background-color: #eaecf4 !important;
+    color: #6e707e !important;
+   
+}
+ .table th{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    text-align: center;
+}
+.table td{
+    padding-top: 15px !important;
+    padding-bottom: 25px !important;
+}
+.table>tbody>tr{
+    background-color: #0000000d !important;
+    text-align: center;
+}
+.table-bordered td, .table-bordered th{
+border: 1px solid#cdd2d6 !important
+}
+.bt-delete{
+      
+    color: white !important;
+     background-color: #22b1ed !important;
+      font-Size: 15px !important;
+      border-Color: #e3eaef !important;
+       box-Shadow: 0 .125rem .25rem 0 rgba(58,59,69,.2) !important;
+        border-Radius: .25rem !important;
+}
+
+.bt-show{
+      
+    color: white !important;
+     background-color: #22b1ed !important;
+      font-Size: 15px !important;
+      border-Color: #e3eaef !important;
+       box-Shadow: 0 .125rem .25rem 0 rgba(58,59,69,.2) !important;
+        border-Radius: 2% !important;
+
+}
+
+.dropdown-menu{
+    min-width: 3.5rem !important;
+}
+.dropdown-menu a {text-decoration: none !important;}
+.dropdown-menu a:hover {
+    color: #22b1ed !important;
+text-decoration: underline!important;}

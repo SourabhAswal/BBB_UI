@@ -1,0 +1,23 @@
+#row-2 ,#row-3, #row-4{
+    margin-top:  10px;
+}
+#row-5{
+    margin-top:  20px;
+}
+
+#colm1{
+    margin-top: 10px;
+}
+
+#savebtn{
+    color: white ;
+    background-color : #22b1ed; 
+    font-size : 12px;
+    border-color:#e3eaef;
+    box-shadow:0 .125rem .25rem 0 rgba(58,59,69,.2);
+    width :120px ;
+    border-radius:.25rem ;
+    
+    
+    
+}
